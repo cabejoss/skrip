@@ -19,6 +19,7 @@ class Riwayat extends BaseController
 	public function show($id){
 		$this->riwayat->select(['riwayat_kd', 'produk_nama', 'jumlah_produk','support', 'confiden', 'tgl_mulai', 'tgl_selesai']);
 		$this->riwayat->where('riwayat_kd', $id);
+		$this->riwayat->orderBy('jumlah_produk', 'DESC'); // sing terbaru neng duwur dewe
 		$dt['kd_mining'] = $id;
  		$dt['riwayat'] = $this->riwayat->get()->getResultArray();
 
