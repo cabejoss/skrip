@@ -1,0 +1,44 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.kanan{
+    background: url("../img/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+     background-color: #035e26
+}
+h5{
+    margin-top:50px;
+}
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align:center;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+.btn{
+    background-color: #4CAF50;
+}
+.btn:hover{
+    background-color: #4CAF50;
+}
+nav, .nav-wrapper{
+    background-color: #4CAF50;
+}
